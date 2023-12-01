@@ -1,4 +1,4 @@
-// developer : Nurul Aldi (23343048)
+// Created by : 23343048_Nurul Aldi
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -6,27 +6,27 @@
 int penjumlahan(int a, int b){
 	printf("\n%d + %d adalah : %d ", a, b, a+b);
 	
-	return 0;
+	return 0; // fungsi ini akan mengembalikan nilai integer
 }
 // fungsi untuk melakukan operasi pengurangan
 int pengurangan(int a, int b){
 	printf("\n%d - %d adalah : %d ", a, b, a-b);
 	
-	return 0;
+	return 0; // fungsi ini akan mengembalikan nilai integer
 }
 
 // fungsi untuk melakukan operasi perkalian
 int perkalian(int a, int b){
 	printf("\n%d x %d adalah : %d ", a, b, a*b);
 	
-	return 0;
+	return 0; // fungsi ini akan mengembalikan nilai integer
 }
 
 // fungsi untuk melakukan operasi pembagian
 int pembagian(int a, int b){
 	printf("\n%d / %d adalah : %d ", a, b, a/b);
 	
-	return 0;
+	return 0; // fungsi ini akan mengembalikan nilai integer
 }
 
 int main(){
@@ -42,68 +42,67 @@ int main(){
 	printf("\n5.Exit");
 	printf("\nPilihan : ");
 	scanf("%d", &pilihan);
-	getchar();
+	fflush(stdin); // membersihkan buffer input dari scanf()
 
 	// mengizinkan user untuk melakukan operasi sebanyak mungkin hingga si user sendiri yang memillih untuk exit
 	switch(pilihan){
-		case 1:
+		case 1: // blok kode ini akan berjalan jika user menginput nomor 1 (penjumlahan)
 			printf("Masukkan nilai angka ke-1 : ");
 			scanf("%d", &angka1);
-			getchar();
+			getchar(); // membersihkan buffer input dari scanf()
 			printf("Masukkan nilai angka ke-2 : ");
 			scanf("%d", &angka2);
-			getchar();
+			getchar(); // membersihkan buffer input dari scanf()
 			penjumlahan(angka1, angka2);
 			
 			printf("\nTekan enter untuk kembali...");
-			getchar();
+			getchar(); // menunggu input enter dari user
 			break;
-		case 2:
+		case 2: // blok kode ini akan berjalan jika user menginput nomor 2 (pengurangan)
 			printf("Masukkan nilai angka ke-1 : ");
 			scanf("%d", &angka1);
-			getchar();
+			getchar(); // membersihkan buffer input dari scanf()
 			printf("Masukkan nilai angka ke-2 : ");
 			scanf("%d", &angka2);
-			getchar();
+			getchar(); // membersihkan buffer input dari scanf()
 			pengurangan(angka1, angka2);
 			
 			printf("\nTekan enter untuk kembali...");
-			getchar();
+			getchar(); // menunggu input enter dari user
 			break;
-		case 3:
+		case 3: // blok kode ini akan berjalan jika user menginput nomor 3 (perkalian)
 			printf("Masukkan nilai angka ke-1 : ");
 			scanf("%d", &angka1);
-			getchar();
+			getchar(); // membersihkan buffer input dari scanf()
 			printf("Masukkan nilai angka ke-2 : ");
 			scanf("%d", &angka2);
-			getchar();
+			getchar(); // membersihkan buffer input dari scanf()
 			perkalian(angka1, angka2);
 			
 			printf("\nTekan enter untuk kembali...");
-			getchar();
+			getchar(); // menunggu input enter dari user
 			break;
-		case 4:
+		case 4: // blok kode ini akan berjalan jika user menginput nomor 4 (pembagian)
 			printf("Masukkan nilai angka ke-1 : ");
 			scanf("%d", &angka1);
-			getchar();
+			getchar(); // membersihkan buffer input dari scanf()
 			printf("Masukkan nilai angka ke-2 : ");
 			scanf("%d", &angka2);
-			getchar();
+			getchar(); // membersihkan buffer input dari scanf()
 			pembagian(angka1, angka2);
 			
 			printf("\nTekan enter untuk kembali...");
-			getchar();
+			getchar(); // menunggu input enter dari user
 			break;
-		case 5:
+		case 5: // blok kode ini akan berjalan jika user menginput nomor 5 (exit)
 			printf("\nTerimakasih telah menggunakan program kami...");
 			break;
-		default:
+		default: // blok kode ini akan berjalan jika user menginput selain 1-5
 			printf("\nPilihan anda tidak valid");
-			getchar;
 			break;
 						
 	}
-	} while(pilihan != 5);
+	} while(pilihan != 5); // program akan terus berjalan selama user menginput pilihan selain 5 (exit)
 
 	return 0;
 }
