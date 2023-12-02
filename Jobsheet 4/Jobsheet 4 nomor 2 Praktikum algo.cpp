@@ -1,12 +1,12 @@
-// developed by Nurul Aldi (23343048)
+// Created by : 23343048_Nurul Aldi
 #include<stdio.h>
 
 int main(){
-  char nama_pembeli;
-  char nama_barang;
-  int jumlah_barang;
-  float harga_barang_satuan;
-  float harga_total;
+  char nama_pembeli; // deklarasi variabel nama_pembeli dengan tipe data char
+  char nama_barang; // deklarasi variabel nama_barang dengan tipe data char
+  int jumlah_barang; // deklarasi variabel jumlah_barang dengan tipe data int
+  float harga_barang_satuan; // deklarasi variabel harga_barang_satuan dengan tipe data float
+  float harga_total; // deklarasi variabel harga_total dengan tipe data float
   
   // pengguna diminta menginput nama pembeli
   printf("Masukkan nama pembeli : ");
