@@ -1,3 +1,4 @@
+// Created by : 23343048_Nurul Aldi
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,7 +14,7 @@ void menu_utama() {
     printf("2) Setoran\n");
     printf("3) Penarikan Tunai\n");
     printf("4) Exit\n");
-    printf("Pilih menu: ");
+    printf("Pilih menu: "); // pengguna diminta untuk memilih salah satu dari 4 pilihan diatas
 }
 
 // Fungsi untuk menampilkan informasi akun
@@ -28,7 +29,7 @@ void cek_saldo() {
     system("cls"); // Membersihkan layar
     info_akun(); // Menampilkan informasi akun
     printf("\nTekan enter untuk kembali ke menu utama...");
-    getchar(); // Menunggu input dari user
+    getchar(); // Menunggu input enter dari pengguna
 }
 
 // Fungsi untuk melakukan setoran
@@ -37,9 +38,9 @@ void setoran() {
     system("cls"); // Membersihkan layar
     info_akun(); // Menampilkan informasi akun
     printf("\nMasukkan jumlah setoran: ");
-    scanf("%d", &jumlah); // Membaca input dari user
+    scanf("%d", &jumlah); // Membaca input dari pengguna dan disimpan ke variabel jumlah 
     getchar(); // Membersihkan buffer input
-    if (jumlah > 0) { // Jika jumlah setoran valid
+    if (jumlah > 0) { // Jika jumlah setoran valid atau dengan kata lain lebih dari 0
         saldo += jumlah; // Menambahkan jumlah setoran ke saldo
         printf("\nSetoran berhasil. Saldo Anda sekarang adalah Rp. %d\n", saldo);
     }
@@ -88,9 +89,9 @@ int main() {
             
             case 4: printf("\nTerima kasih telah menggunakan layanan kami.\n"); break; // Keluar dari program
             
-            default: printf("\nPilihan tidak valid. Silakan coba lagi.\n"); // Menampilkan pesan kesalahan
+            default: printf("\nPilihan tidak valid. Silakan coba lagi.\n"); // Menampilkan pesan kesalahan jika pengguna menginput selain 1-4 seperti diatas
         }
-    } while (pilihan != 4); // Mengulangi program sampai user memilih exit
+    } while (pilihan != 4); // Mengulangi program sampai pengguna memilih exit
     
     return 0; // Mengakhiri program
 }
