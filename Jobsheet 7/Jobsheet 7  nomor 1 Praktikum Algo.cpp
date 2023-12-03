@@ -1,7 +1,8 @@
-// developer : Nurul Aldi (23343048)
+// Created by : 23343048_Nurul Aldi
 #include<stdio.h>
 
 int main(){
+	// deklarasi variabel untuk menyimpan nilai mahasiswa, total nilai dari mahasiswa, dan variabel untuk menyimpan nilai rata rata
 	float nMhs[20];
 	float total = 0;
 	float rata_rata;
