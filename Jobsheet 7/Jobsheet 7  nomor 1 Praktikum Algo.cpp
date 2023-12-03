@@ -9,7 +9,7 @@ int main(){
 	
 	for(int i = 0; i < 20; i++){
 		printf("Input nilai mahasiswa ke-%d", i + 1); // pengguna diminta memasukkan nilai mahasiswa ke 1 sampai ke 20
-		scanf("%d", &nMhs[i]);
+		scanf("%f", &nMhs[i]);
 		total += nilai[i]; // variabel total akan menyimpan total nilai semua mahasiswa 
 	}
 
