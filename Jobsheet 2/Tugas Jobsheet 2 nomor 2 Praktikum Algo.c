@@ -8,31 +8,35 @@ int main(){
 	
 	// User diminta untuk menginputkan nama (panjang karakter maksimal 50 karakter)
 	printf("Nama : ");
-	scanf("%s", &nama);
+	gets(nama);
 	
 	// User diminta untuk menginputkan nim (berupa bilangan bulat atau dengan kata lain integer(int))
 	printf("NIM : ");
 	scanf("%i", &nim);
+	fflush(stdin);
 	
 	// User diminta untuk menginputkan prodi (panjang karakter maksimal 50 karakter)
 	printf("Prodi : ");
-	scanf("%s", &prodi);
+	gets(prodi);
 	
 	// User diminta untuk menginputkan fakultas (panjang karakter maksimal 50 karakter)
 	printf("Fakultas : ");
-	scanf("%s", &fakultas);
+	gets(fakultas);
 	
 	// User diminta untuk menginputkan Nilai Praktikum (boleh bilangan bulat boleh bilangan berkoma atau dengan kata lain double)
 	printf("Nilai Praktikum : ");
 	scanf("%d", &NP);
+	fflush(stdin);
 	
 	// User diminta untuk menginputkan UTS (boleh bilangan bulat boleh bilangan berkoma atau dengan kata lain double)
 	printf("Nilai UTS : ");
 	scanf("%d", &NUT);
+	fflush(stdin);
 	
 	// User diminta untuk menginputkan Nilai UAS (boleh bilangan bulat boleh bilangan berkoma atau dengan kata lain double)
 	printf("Nilai UAS : ");
 	scanf("%d", &NUA);
+	fflush(stdin);
 	
 	// operasi matematika untuk menghitung nilai akhir 
 	NA = (0.3*NP) + (0.3*NUT) + (0.4*NUA);
