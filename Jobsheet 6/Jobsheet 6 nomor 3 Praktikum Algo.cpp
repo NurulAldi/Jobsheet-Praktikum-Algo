@@ -1,3 +1,4 @@
+// Created by : 23343048_Nurul Aldi
 #include<stdio.h>
 
 int main(){
@@ -6,7 +7,7 @@ int main(){
 		for(int j = 1; j <= i; j++){ // for loop untuk mengontrol kolom simbol
 			printf("%i ", i*j); // menampilkan pola deret angka 
 		}
-		printf("\n"); // baris baru
+		printf("\n"); // membuat baris baru
 	}
 	
 	
