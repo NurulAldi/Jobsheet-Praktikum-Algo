@@ -8,6 +8,7 @@ int main() {
     // Meminta pengguna untuk memasukkan banyak mahasiswa
     printf("Input banyak siswa: ");
     scanf("%d", &n);
+    fflush(stdin);
 
     // Deklarasi array untuk menyimpan nama mahasiswa
     char names[n][100]; // Setiap nama maksimal 100 karakter 
