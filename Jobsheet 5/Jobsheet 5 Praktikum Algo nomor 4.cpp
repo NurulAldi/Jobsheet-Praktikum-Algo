@@ -1,18 +1,19 @@
-// developed by Nurul Aldi (23343048)
+// Created by : 23343048_Nurul Aldi
 #include <stdio.h>
 
 int main() {
+    // deklarasi variabel untuk menyimpan nilai kehadiran, nilai tugas, nilai uts, nilai uas, nilai akhir
     float kehadiran, tugas, uts, uas, nilaiAkhir;
 
     // Meminta input nilai dari pengguna
     printf("Masukkan nilai Kehadiran: ");
-    scanf("%f", &kehadiran);
+    scanf("%f", &kehadiran); // disimpan ke variabel kehadiran
     printf("Masukkan nilai Tugas: ");
-    scanf("%f", &tugas);
+    scanf("%f", &tugas); // disimpan ke variabel tugas
     printf("Masukkan nilai UTS: ");
-    scanf("%f", &uts);
+    scanf("%f", &uts); // disimpan ke variabel uts
     printf("Masukkan nilai UAS: ");
-    scanf("%f", &uas);
+    scanf("%f", &uas); // disimpan ke variabel uas
 
     // operasi matematika untuk menghitung nilai akhir
     nilaiAkhir = kehadiran * 0.2 + tugas * 0.2 + uts * 0.25 + uas * 0.35;
@@ -43,7 +44,7 @@ int main() {
         printf("Nilai Akhir: A\n");
         printf("Selamat! Anda lulus dengan nilai yang sangat memuaskan!\n");
     } else {
-        printf("Nilai yang dimasukkan tidak valid.\n");
+        printf("Nilai yang dimasukkan tidak valid.\n"); // blok kode ini akan berjalan apabila pengguna menginput nilai lebih dari 100 atau kurang dari 0
     }
 
     return 0;
