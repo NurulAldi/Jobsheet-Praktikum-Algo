@@ -27,7 +27,7 @@ int main(){
   // operasi matematika menghitung harga total barang
   harga_total = (harga_barang_satuan*jumlah_barang);
   
-  printf("\nHarga total adalah : %.2f", harga_total);
+  printf("\nHarga total adalah : Rp.%.2f", harga_total);
   
   return 0;
   
