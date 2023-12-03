@@ -1,4 +1,4 @@
-// developed by Nurul Aldi (23343048)
+// Created by : 23343048_Nurul Aldi
 #include <stdio.h>
 #define PI 3.141592653589793238 // deklarasi variabel yang memiliki nilai tetap
 
