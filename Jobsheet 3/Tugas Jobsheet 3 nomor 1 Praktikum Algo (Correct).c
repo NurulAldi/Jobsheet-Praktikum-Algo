@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 int main(){
-	float rp, dollar; deklarasi variabel rp untuk menyimpan jumlah uang dalam rupiah dan dollar untuk menyimpan hasil konversi rupiah ke dollar
+	float rp, dollar; // deklarasi variabel rp untuk menyimpan jumlah uang dalam rupiah dan dollar untuk menyimpan hasil konversi rupiah ke dollar
 
 	// Pengguna menginputkan nilai uang dalam bentuk rupiah
 	printf("Masukkan jumlah uang dalam rupiah : ");
