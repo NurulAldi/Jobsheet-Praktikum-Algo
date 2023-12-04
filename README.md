@@ -14,6 +14,15 @@
 #### 📆 Nim : 23343048
 #### :thinking: Sedang mencari cara menengahkan div
 
+  ## <picture> <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Connect-with-me.gif?raw=true" width="100px"> </picture> Connect with me
+<p>
+	<a href="mailto:aldiprm48@gmail.com"><img img src="https://img.shields.io/badge/gmail-%23EA4335.svg?style=plastic&logo=gmail&logoColor=white" alt="Gmail"/></a>
+	<a href="https://github.com/NurulAldi"><img src="https://img.shields.io/badge/github-%23181717.svg?style=plastic&logo=github&logoColor=white" alt="GitHub"/></a>
+	<a href="https://wa.me/081282304058"><img src="https://img.shields.io/badge/whatsapp-%2325D366.svg?style=plastic&logo=whatsapp&logoColor=white" alt="Whatsapp"/></a>
+	<a href="https://www.linkedin.com/in/nurul-aldi-60b072265/"><img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?style=plastic&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+	<a href="https://www.instagram.com/aldiiii102/?hl=en"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?style=plastic&logo=instagram&logoColor=white" alt="Instagram"/></a>
+</p>
+
 
 ## 📜 Jobsheet Praktikum Algoritma 
 ### 1. Pengantar Algoritma dan Pemrograman ✨
@@ -152,29 +161,3 @@
 - **Operasi File**:
   - Membuka, menutup, membaca, dan menulis ke file eksternal dalam program C.
   - Menggunakan fungsi-fungsi seperti fopen(), fclose(), fread(), fwrite().
- 
-## About this course 📝
-- 🎨 Matakuliah : Praktikum Algoritma Pemrograman
-- 📑 Kode kelas : 202313430012
-- 🤵 Dosen Pengampu : Randi Proska Sandra, M.Sc
-- ⏲️ Jam kelas : Jum'at, 10.40 - 15.00 WIB
-
-## <picture><img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 50px></picture> **About me**
-
-
-<br>
-- :school: Universitas Negeri Padang <br>
-- 👨‍💻 Teknik Informatika <br>
-- 👨‍🎓 Nama : Nurul Aldi <br>
-- 📆 Nim : 23343048 <br>
-- :thinking: Sedang mencari cara menengahkan div
-<br>
-
-  ## <picture> <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Connect-with-me.gif?raw=true" width="100px"> </picture> Connect with me
-<p>
-	<a href="mailto:aldiprm48@gmail.com"><img img src="https://img.shields.io/badge/gmail-%23EA4335.svg?style=plastic&logo=gmail&logoColor=white" alt="Gmail"/></a>
-	<a href="https://github.com/NurulAldi"><img src="https://img.shields.io/badge/github-%23181717.svg?style=plastic&logo=github&logoColor=white" alt="GitHub"/></a>
-	<a href="https://wa.me/081282304058"><img src="https://img.shields.io/badge/whatsapp-%2325D366.svg?style=plastic&logo=whatsapp&logoColor=white" alt="Whatsapp"/></a>
-	<a href="https://www.linkedin.com/in/nurul-aldi-60b072265/"><img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?style=plastic&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-	<a href="https://www.instagram.com/aldiiii102/?hl=en"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?style=plastic&logo=instagram&logoColor=white" alt="Instagram"/></a>
-</p>
