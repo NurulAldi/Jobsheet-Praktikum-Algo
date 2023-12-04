@@ -195,6 +195,16 @@
 ### 10. File Handling in C ✨
 - **Operasi File**:
   - Membuka, menutup, membaca, dan menulis ke file eksternal dalam program C.
-  - Menggunakan fungsi-fungsi seperti fopen(), fclose(), fread(), fwrite().
+  - Menggunakan fungsi-fungsi seperti fopen(), fclose()
+  - fopen() adalah membuka sebuah file untuk ditulis menggunakan mode w(write) dan  untuk dibaca menggunakan mode r(read)
+  - contoh penggunaan fopen() dan fclose() dengan mode read 
+ 
+    ![Screenshot (269)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/ff0c9c72-2e99-4ca9-88bf-a3b5969dcabe)
+
+  - contoh penggunaan fopen() dan fclose() dengan mode write
+ 
+    ![Screenshot (271)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/4650c47c-9295-4ac6-919b-e6711fbdab86)
+
+
 
 #
