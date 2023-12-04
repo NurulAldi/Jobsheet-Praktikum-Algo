@@ -146,34 +146,55 @@
 - **Fungsi**:
   - fungsi adalah sub-program yang dapat digunakan kembali baik di dalam program itu sendiri, maupun di program yang lain
   - contoh fungsi yang paling sering kita lihat adalah fungsi main()
-  - berikut adalah contoh penggunaan fungsi dalam program
+  - fungsi ada yang mengembalikan nilai dan ada yang tidak bisa mengembalikan nilai
+  - contoh fungsi dibawah ini mengembalikan nilai dengan tipe data integer yang didapatkan dari hasil penjumlahan yang dilakukan di dalam fungsi tersebut
+ 
+    ![Screenshot (254)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/44c26ee5-cb03-4ec9-820c-ac189b7181f4)
+
+
+  - contoh fungsi di bawah adalah fungsi yang tidak mengembalikan nilai, karena menggunakan keyword void sehingga tidak bisa menggunakan fungsi return
+
  
     ![Screenshot (252)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/4d36dad4-72ab-4b80-9cd3-aea8a4d104a2)
-
-
-
-
-
-
  
-- **Prosedur**:
-  - Serupa dengan fungsi, tetapi tidak mengembalikan nilai.
 
 #
 ### 8. Pointer ✨
 - **Konsep Pointer**:
-  - Menunjuk alamat memori suatu variabel.
-  - Mengakses nilai yang disimpan di alamat memori tersebut.
+  - Pointer adalah variabel yang menunjuk/berisi alamat memori dari variabel lain sehingga variabel pointer yang kita buat bisa mengakses nilai/data yang ada pada variabel yang alamat memorinya ditunjuk tersebut
+  - alamat memori berfungsi untuk menentukan lokasi penyimpanan data pada penyimpanan (RAM), alamat memori juga disebut reference atau referensi
+  - contoh penggunaan variabel pointer dalam program
+
+  ![Screenshot (257)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/a9c534e0-9574-4578-8b91-5595b0dd3c74)
 
 #
 ### 9. Enumerasi dan Structure ✨
 - **Enumerasi**:
-  - Membuat tipe data baru dengan kumpulan konstanta bernama.
+  - Enumerasi adalah tipe data yang berisi sekumpulan konstanta dan termasuk kedalam tipe data bentukan karena kita yang membuatnya
+  - contoh penggunaan Enumerasi/enum dalam program
+ 
+    ![Screenshot (259)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/880ad324-6320-4ddb-bd9a-344ce7ea5274)
+
+  - pada contoh diatas konstantanya adalah semua yang ada dalam {}, jika kita tidak mengisi nilai konstanta tersebut maka nilainya secara otomatis akan mengikuti indeks dari konstanta tersebut, seperti pada contoh di atas, senin berada pada indeks 0 sehingga nilai dari senin juga adalah 0 dan begitu seterusnya
+
 - **Struktur (Struct)**:
-  - Menggabungkan tipe data yang berbeda ke dalam satu kesatuan logis.
+  - Struct adalah tipe data bentukan sama halnya dengan enumerasi/enum, namun struct berisi sekumpulan variabel dengan tipe data yang berbeda beda
+  - contoh penggunaan struct dalam program
+ 
+    ![Screenshot (263)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/5a270c65-694f-4693-a6f2-a565aa6d99b6)
+
+
+  - struct juga memiliki kata kunci typedef yang digunakan untuk mendefinisikan tipe data baru, typedef terletak di depan struct ketika dideklarasikan
+  - contoh penggunaan struct menggunakan typedef
+ 
+    ![Screenshot (265)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/a12b5b69-a177-46e6-bb4f-26e7549eb704)
+
+ 
 
 #
 ### 10. File Handling in C ✨
 - **Operasi File**:
   - Membuka, menutup, membaca, dan menulis ke file eksternal dalam program C.
   - Menggunakan fungsi-fungsi seperti fopen(), fclose(), fread(), fwrite().
+
+#
