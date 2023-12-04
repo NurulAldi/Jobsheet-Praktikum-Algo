@@ -1,19 +1,21 @@
 # Jobsheet Praktikum Algoritma 📜
 ### 1. Pengantar Algoritma dan Pemrograman ✨
 - **Algoritma**:
-  - Konsep langkah-langkah terstruktur untuk menyelesaikan masalah.
-  - Fokus pada logika dan prosedur yang terdefinisi dengan baik.
-  - Langkah-langkah harus spesifik, terbatas, dan dapat dijalankan.
+  - Algoritma adalah langkah langkah yang berurutan dan disusun dengan logis dan sistematis untuk mencapai tujuan tertentu atau untuk menyelesaikan masalah tertentu
+  - contoh algoritma adalah seperti : langkah langkah membuat mie instan, yang dimana langkah langkah tersebut harus dilakukan dengan sistematis dan sesuai urutan agar mie instan dapat dibuat dengan benar
 - **Pemrograman**:
-  - Proses mengimplementasikan algoritma ke dalam bahasa pemrograman.
-  - Menggunakan instruksi dan aturan tertentu untuk menulis kode yang dapat dipahami oleh komputer.
+  - adalah suatu tindakan atau aktivitas menulis, menguji, memperbaiki, memelihara kode menjadi sebuah program yang dapat dipahami oleh komputer
+  - pemrograman dilakukan oleh seseorang yang disebut programmer yang menggunakan bahasa pemrograman tertentu, dan program adalah hasil / produk dari pemrograman yang dilakukan programmer
 
 ### 2. Pemrograman Dasar C ✨
-- **Struktur Program C**:
-  - Program C terdiri dari fungsi `main()` sebagai titik awal eksekusi.
-  - Menggunakan perintah `#include` untuk menyertakan pustaka standar (misalnya, `stdio.h`).
-- **Kompilasi dan Eksekusi**:
-  - Proses kompilasi mengonversi kode C menjadi kode mesin yang dapat dijalankan oleh komputer.
+- **Struktur Program / sintaks C**:
+  - dibagi menjadi 2 bagian yaitu bagian #include dan bagian blok fungsi main()
+  - #include berfungsi mengimpor fungsi fungsi yang sudah didefinisikan pada header file, contohnya adalah #include<stdio.h> yang dibutuhkan untuk menjalankan fungsi printf().
+  - blok fungsi main() adalah fungsi yang wajib ada dalam program bahasa C, karena fungsi main() akan dieksekusi pertama kali ketika program dijalankan, dan program yang akan kita jalankan bisa kita tuliskan di dalam fungsi main() tersebut
+  - berikut adalah contoh struktur #include dan fungsi main()
+    
+    ![Screenshot (221)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/2f1e911c-07af-4109-ba0d-a90945c44e46)
+
 
 ### 3. Variabel, Konstanta, dan Tipe Data ✨
 - **Variabel**:
