@@ -33,6 +33,7 @@
   - adalah suatu tindakan atau aktivitas menulis, menguji, memperbaiki, memelihara kode menjadi sebuah program yang dapat dipahami oleh komputer
   - pemrograman dilakukan oleh seseorang yang disebut programmer yang menggunakan bahasa pemrograman tertentu, dan program adalah hasil / produk dari pemrograman yang dilakukan programmer
 
+#
 ### 2. Pemrograman Dasar C ✨
 - **Struktur Program / sintaks C**:
   - dibagi menjadi 2 bagian yaitu bagian #include dan bagian blok fungsi main()
@@ -42,7 +43,7 @@
     
     ![Screenshot (221)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/2f1e911c-07af-4109-ba0d-a90945c44e46)
 
-
+#
 ### 3. Variabel, Konstanta, dan Tipe Data ✨
 - **Variabel**:
   - Variabel adalah sebuah tempat untuk menyimpan sebuah nilai, sementara nilai tersebut memiliki jenis yang disebut tipe data
@@ -67,7 +68,7 @@
 
     ![Screenshot (227)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/336dac3a-f64a-4291-9111-ca22cb1977fc)
 
-
+#
 ### 4. Operator ✨
 - **Aritmatika**:
   - Operator aritmatika adalah operator yang digunakan untuk operasi matematika seperti, penjumlahan (+), pengurangan (-), perkalian(*), pembagian(/), sisa bagi(%)
@@ -91,7 +92,7 @@
  
     ![Screenshot (234)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/5732dbf5-2220-4598-9c1a-750b4d240f71)
 
-
+#
 ### 5. Flow Control (Decision Making dan Looping) ✨
 - **Decision Making**:
   - Memungkinkan programmer untuk mengubah aliran jalannya suatu program, ada beberapa cara menggunakan decision making yaitu:
@@ -130,7 +131,7 @@
 
 
 
-
+#
 ### 6. Array ✨
 - **Definisi Array**:
   - Kumpulan elemen data dengan tipe yang sama yang disimpan dalam satu variabel, array dapat memiliki elemen atau nilai yang banyak, angka dalam kurung [] pada sebuah array mengatakan jumlah elemen maksimal yang dapat dimiliki oleh sebuah array, jika jumlah elemen tersebut tidak penuh oleh elemen yang diberikan, maka sisa slot kosong dalam sebuah array tersebut akan diisi dengan null    
@@ -140,23 +141,38 @@
  
   ![Screenshot (248)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/08aa36f1-04ae-4cae-ab7c-39f1ec6a9817)
 
+#
 ### 7. Fungsi dan Prosedur ✨
 - **Fungsi**:
-  - Blok kode yang dapat dipanggil berulang kali dan dapat mengembalikan nilai.
+  - fungsi adalah sub-program yang dapat digunakan kembali baik di dalam program itu sendiri, maupun di program yang lain
+  - contoh fungsi yang paling sering kita lihat adalah fungsi main()
+  - berikut adalah contoh penggunaan fungsi dalam program
+ 
+    ![Screenshot (252)](https://github.com/NurulAldi/Jobsheet-Praktikum-Algo/assets/149251399/4d36dad4-72ab-4b80-9cd3-aea8a4d104a2)
+
+
+
+
+
+
+ 
 - **Prosedur**:
   - Serupa dengan fungsi, tetapi tidak mengembalikan nilai.
 
+#
 ### 8. Pointer ✨
 - **Konsep Pointer**:
   - Menunjuk alamat memori suatu variabel.
   - Mengakses nilai yang disimpan di alamat memori tersebut.
 
+#
 ### 9. Enumerasi dan Structure ✨
 - **Enumerasi**:
   - Membuat tipe data baru dengan kumpulan konstanta bernama.
 - **Struktur (Struct)**:
   - Menggabungkan tipe data yang berbeda ke dalam satu kesatuan logis.
 
+#
 ### 10. File Handling in C ✨
 - **Operasi File**:
   - Membuka, menutup, membaca, dan menulis ke file eksternal dalam program C.
