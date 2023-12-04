@@ -65,6 +65,23 @@
   - Membuka, menutup, membaca, dan menulis ke file eksternal dalam program C.
   - Menggunakan fungsi-fungsi seperti fopen(), fclose(), fread(), fwrite().
  
+## About this course 📝
+- 🎨 Matakuliah : Praktikum Algoritma Pemrograman
+- 📑 Kode kelas : 202313430012
+- 🤵 Dosen Pengampu : Randi Proska Sandra, M.Sc
+- ⏲️ Jam kelas : Jum'at, 10.40 - 15.00 WIB
+
+## <picture><img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 50px></picture> **About me**
+
+<picture> <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width = 250px></picture>
+
+<br>
+- :school: Universitas Negeri Padang <br>
+- 👨‍💻 Teknik Informatika <br>
+- 👨‍🎓 Nama : Nurul Aldi <br>
+- 📆 Nim : 23343048 <br>
+- :thinking: Sedang mencari cara menengahkan div
+<br>
 
   ## <picture> <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Connect-with-me.gif?raw=true" width="100px"> </picture> Connect with me
 <p>
