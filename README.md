@@ -1,4 +1,4 @@
-# About this course 📝
+## 📝 About this course 
 #### 🎨 Matakuliah : Praktikum Algoritma Pemrograman
 #### 📑 Kode kelas : 202313430012
 #### 🤵 Dosen Pengampu : Randi Proska Sandra, M.Sc
@@ -15,7 +15,7 @@
 #### :thinking: Sedang mencari cara menengahkan div
 
 
-# Jobsheet Praktikum Algoritma 📜
+## 📜 Jobsheet Praktikum Algoritma 
 ### 1. Pengantar Algoritma dan Pemrograman ✨
 - **Algoritma**:
   - Algoritma adalah langkah langkah yang berurutan dan disusun dengan logis dan sistematis untuk mencapai tujuan tertentu atau untuk menyelesaikan masalah tertentu
